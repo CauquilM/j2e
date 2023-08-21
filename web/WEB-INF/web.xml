@@ -4,9 +4,17 @@
         <servlet-name>HomeServlet</servlet-name>
         <servlet-class>servlets.HomeServlet</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>PersonneServlet</servlet-name>
+        <servlet-class>servlets.PersonneServlet</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>HomeServlet</servlet-name>
         <url-pattern>/Home</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>PersonneServlet</servlet-name>
+        <url-pattern>/Personne</url-pattern>
     </servlet-mapping>
     <welcome-file-list>
         <welcome-file>home.html</welcome-file>
