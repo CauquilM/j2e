@@ -17,4 +17,18 @@
         <servlet-name>leon</servlet-name>
         <url-pattern>/steak</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <description>Ma première servlet de test.</description>
+        <servlet-name>raymond</servlet-name>
+        <servlet-class>fr.efsf.blog.controllers.Ola</servlet-class>
+        <init-param>
+            <param-name>auteur</param-name>
+            <param-value>Herbert</param-value>
+        </init-param>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>raymond</servlet-name>
+        <url-pattern>/popol</url-pattern>
+    </servlet-mapping>
 </web-app>
